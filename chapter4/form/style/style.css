@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header Form */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1345px;
+    margin: auto;
+}
+.header-logo a img{
+    width: 60px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 17px;
+}
+nav a:hover{
+    color: #0662e8;
+}
+/* Main form */
+main{
+    display: flex;
+    padding: 40px;
+    max-width: 1400px;
+    margin: auto;
+}
+.form-section{
+    flex: 2;
+    margin-right: 40px;
+}
+.form-section > h2 {
+    line-height: 51px;
+}
+.form-section > p{
+    line-height: 10px;
+}
+form > input{
+    padding: 10px;
+    margin: 20px 0 !important;
+    border: none;
+    border-bottom: 1px solid #333;
+    width: 70%;
+}
+input:focus{
+    outline: none;
+}
+.address-row{
+    display: flex;
+    gap: 20px;
+}
+.address-row .long{
+    border: none;
+    border-bottom: 1px solid #333;
+    width: 45%;
+}
+.address-row .short{
+    border: none;
+    border-bottom: 1px solid #333;
+    width: 20%;
+}
+.upload-file{
+    border: 1px dashed #aaa;
+    align-items: center;
+    padding: 20px;
+    margin: 15px 0;
+    width: 70%;
+}
+button[type="submit"]{
+    background-color: green;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    width: 70%;
+}
+.checkbox{
+    padding-top: 15px;
+    margin: 10px;
+}
+/* Info */
+.info-section{
+    flex: 1;
+}
+.info-section h2{
+    padding: 20px 0;
+}
+.info-section > p {
+    line-height: 10px;
+}
+span img {
+    width: 10%;
+    /* display: flex;
+    flex-direction: column; */
+}
+.info-section h4{
+    padding: 20px 0;
+}
+.newsletter{
+    display: flex;
+    gap: 20px;
+}
+.newsletter input{
+    border: none;
+    border-bottom: 1px solid #333;
+}
+.newsletter button{
+    background-color: green;
+    padding: 8px 12px;
+}
